@@ -53,5 +53,6 @@ export const Selector = {
   SidebarContract: "div[class~='Sidebar__contract___J0gmlzN']",
   SidebarContractId: "span[class~='Sidebar__contractId___Lg85TRZ']",
   BuildingList: "div[class~='SectionList__container___EtUzWyi']",
-  Divider: "div[class~='SectionList__divider___cwWO45v']"
+  Divider: "div[class~='SectionList__divider___cwWO45v']",
+  HeadItem: "span[class~='HeadItem__label___tlXE4qZ']"
 }
