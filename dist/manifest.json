@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "PrUN Translator",
+  "description": "Translate PrUN into Chinese",
+  "version": "0.1",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "action": {
+	"default_popup": "popup.html"
+  },
+  "permissions": [
+	"storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://apex.prosperousuniverse.com/*"
+      ],
+	  "run_at": "document_start",
+      "js": [
+        "main.js"
+      ]
+    }
+  ]
+}
