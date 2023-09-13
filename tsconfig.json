@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "removeComments": true,
+    "lib": ["es2015", "es2017", "es2019", "dom"],
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "alwaysStrict": true,
+    "baseUrl": "./src",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": [
+      "chrome"
+    ],
+	"typeRoots": [
+      "./node_modules/@types",
+      "./typings"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
